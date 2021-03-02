@@ -1,7 +1,7 @@
-const users = require("./users");
-console.log(users)
-// console.log(users.admins)
-// console.log(users.managers);
+import {admins, managers} from "./users.js";
+
+console.log(admins)
+console.log(managers);
 
 // const currentDate = require("./currentDate");
 // console.log(currentDate)
